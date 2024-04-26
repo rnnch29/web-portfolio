@@ -15,7 +15,7 @@ function About() {
                     <p className='text-2xl font-bold text-blue-500'>Web Developer</p>
 
                     <p className='text-xl'>
-                        Hello! I'm Ronnachai Buthploeng, but you can call me "Gong" I'm {new Date().getFullYear() - 2001} years old and graduated in Computer Science from Naresuan University.  I am ready to learn new things and improve myself and the organization.
+                        Hello! I'm Ronnachai Buthploeng, but you can call me "Gong" I'm {new Date().getFullYear() - 2001} years old and graduated in Computer Science from Naresuan University.   I'm ready to learn new technologies and work as part of a team.
                     </p>
                 </div>
             </div>
