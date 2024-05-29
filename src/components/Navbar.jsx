@@ -18,7 +18,7 @@ function Navbar() {
     return (
         <nav className='navbar'>
             <div className="max-w-7xl mx-auto flex justify-between items-center py-5 px-10">
-                <a href='#home' className='text-2xl font-bold' data-aos='fade-right'>RONNACHAI</a>
+                <a href='#home' className='text-2xl font-bold' data-aos=''>RONNACHAI</a>
                 <ul className='hidden lg:flex gap-5' data-aos='fade-left'>
                     {menuList.map((menu, i) => (
                         <li key={i} className='hover:text-[#707070] transition'><a href={menu.path}>{menu.name}</a></li>
