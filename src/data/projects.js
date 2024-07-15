@@ -9,17 +9,7 @@ import reduxImg from '../assets/icon/icons8-redux-48.png'
 import nextImg from '../assets/icon/icons8-nextjs-48.png'
 
 export const projects = [
-    {
-        name: 'Poke-API',
-        describe: 'This project was created to access Pokémon data from an API, allowing users to view details for each Pokémon.',
-        img: pokemon,
-        link: 'https://poke-api-nine-iota.vercel.app/',
-        stack: [
-            reactImg,
-            jsImg,
-            tailwindImg
-        ]
-    },
+    
     {
         name: 'RTK-Store',
         describe: 'RTK-Store project was created to implement the Fake Store API with Redux Toolkit to help with state management.',
@@ -41,6 +31,18 @@ export const projects = [
             nextImg,
             tsImg,
             tailwindImg
+        ]
+    },
+    {
+        name: 'Poke-API',
+        describe: 'This project was created to access Pokémon data from an API, allowing users to view details for each Pokémon.',
+        img: pokemon,
+        link: 'https://pokedex-ten-smoky.vercel.app/',
+        stack: [
+            reactImg,
+            jsImg,
+            tailwindImg,
+            reduxImg
         ]
     },
 ]
