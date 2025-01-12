@@ -11,8 +11,8 @@ import nextImg from '../assets/icon/icons8-nextjs-48.png'
 export const projects = [
     
     {
-        name: 'RTK-Store',
-        describe: 'RTK-Store project was created to implement the Fake Store API with Redux Toolkit to help with state management.',
+        name: 'Redux-Toolkit-Store',
+        describe: 'Redux-Toolkit-Store project was created to implement the Fake Store API with Redux Toolkit.',
         img: rtkStore,
         link: 'https://rtk-store-phi.vercel.app/',
         stack: [
@@ -23,7 +23,7 @@ export const projects = [
         ]
     },
     {
-        name: 'Movie-app-next',
+        name: 'Movie-app-nextJs',
         describe: 'this project was created to implement the omdb API with Nextjs14 + TypeScript.',
         img: nextmovie,
         link: 'https://movie-app-next-ts.vercel.app/',
@@ -35,7 +35,7 @@ export const projects = [
     },
     {
         name: 'Poke-API',
-        describe: 'This project was created to access Pokémon data from an API, allowing users to view details for each Pokémon.',
+        describe: 'This project involves converting a Figma design into HTML and practicing Poké API integration.',
         img: pokemon,
         link: 'https://pokedex-ten-smoky.vercel.app/',
         stack: [
