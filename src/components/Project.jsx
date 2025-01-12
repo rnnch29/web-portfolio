@@ -4,7 +4,8 @@ import { projects } from '../data/projects'
 function Project() {
   return (
     <div className='py-20  text-center' id='projects'>
-      <span className='title'>My Projects</span>
+      <p className='title'>My Personal Projects</p><br />
+      <p className="text-small text-gray-400">Focused on work done independently for learning and skill development.</p>
 
       {/* Card Project */}
       <div className="mx-auto mt-10 grid grid-cols gap-5 md:grid-cols-2 md:max-w-3xl lg:grid-cols-3 lg:max-w-5xl " data-aos='fade-left'>
